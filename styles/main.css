@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Dosis:200,600');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4b4b4b;
+}
+
+#main-container {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+#page-header {
+  font-family: 'Charmonman', cursive;
+  font-size: 3rem;
+  color: #51ccd0;
+}
+
+#subscribe-btn {
+  height: 55px;
+  border: 0;
+  outline: none;
+  border-radius: 14px;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: #4b4b4b;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: #51ccd0;
+}
+
+#subscribe-btn:hover {
+  position: relative;
+  top: 3px;
+}
+
+#subscribe-btn:active {
+  top: 6px;
+}
+
+#terms-and-conds {
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 200;
+  color: #51ccd0;
+  text-decoration: none;
+}
